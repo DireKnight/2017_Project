@@ -1,4 +1,3 @@
-
 Joseph Roy: Working on a radio ad script
 Juan: Good!
 Lilith Hartley: Working on Uncle Sam poster.
@@ -13,7 +12,3 @@ Josh & Juan - Working on the media section! (From Branch JoshJuanMeida)
 Merging JoshJuanMedia into Branch Media
 ----------------------------
 
-Josh & Juan - Working on the media section! (From Branch JoshJuanMeida)
-
-Merging JoshJuanMedia into Branch Media
-----------------------------
