@@ -1,0 +1,56 @@
+/*Stylesheet for the signup page*/
+
+body {
+    background: #ffffff;
+    color: #111111;
+    font-family: Verdana, sans-serif;
+    padding: 20px;
+}
+
+section ul 
+{
+    list-style: none;
+    margin: 0;
+}
+
+section ul li 
+{
+     margin-bottom: 10px;
+
+}
+
+section ul li label 
+{
+    display: block;
+    float: left;
+    width: 150px;
+    line-height: 24px;
+}
+
+section {
+    border-style: solid;
+    border-radius: 5px 5px;
+    border-width: 2px;
+    border-color: grey;
+    padding: 5px;
+}
+
+footer {
+    padding: 4px;
+}
+
+footer input 
+{
+    background-color: #555555;
+    color: white;
+    padding: 9px 50px;
+    font-size: 16px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+}
+
+.ErrorMessage
+{
+    color:red;
+}
