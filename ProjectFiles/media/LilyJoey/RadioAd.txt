@@ -1,0 +1,13 @@
+This is a script for a radio ad to recruit travelers to NextWorld
+
+Radio ad starts
+
+Announcer: You there! Listener! Do you want to pioneer humanity into a new age?
+	   Have you dreamed of gazing upon unknown stars and 				   breaking dirt in new lands?
+	   Well now you can!
+
+Quartet: NextWorld Recruitment, new skies, new grounds, new opportunities!
+
+Announcer: Visit your local NextWorld recruitment office today, and become a part of history!
+
+Radio Ad Ends
