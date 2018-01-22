@@ -24,7 +24,7 @@ namespace SignupPage
             string path = Server.MapPath("~/Data/TotallySecureStorage.txt");
 
             string appendText =
-                "⚫==========⚫\r\n"
+                "\r\n⚫==========⚫\r\n"
                 + txtFirstName.Text + "\r\n"
                 + txtLastName.Text + "\r\n"
                 + txtCountry.Text + "\r\n"
@@ -32,7 +32,46 @@ namespace SignupPage
                 + txtSkill.Text + "\r\n"
                 + txtDegree.Text + "\r\n"
                 + txtUsername.Text + "\r\n"
-                + txtPassword.Text + "\r\n";
+                + txtPassword.Text;
+
+            if(chkDiabetes.Checked == true)
+            {
+                appendText = appendText
+                    + "\r\n"
+                    + "Diabetes";
+            }
+            if (chkHighBlood.Checked == true)
+            {
+                appendText = appendText
+                    + "\r\n"
+                    + "High Blood Pressure";
+            }
+            if (chkLowBlood.Checked == true)
+            {
+                appendText = appendText
+                    + "\r\n"
+                    + "Low Blood Pressure";
+            }
+            if (chkOsteoporosis.Checked == true)
+            {
+                appendText = appendText
+                    + "\r\n"
+                    + "Osteoporosis";
+            }
+
+            if(radlstHeart.Items[0].Selected == true)
+            {
+                appendText = appendText
+                    + "\r\n"
+                    + "Does Have History of Heart Diseases";
+            }
+            else
+            {
+                appendText = appendText
+                    + "\r\n"
+                    + "Does Not Have History of Heart Diseases";
+            }
+
 
             File.AppendAllText(path, appendText);
 
