@@ -2,7 +2,7 @@ Justin Jacko - Sign Up Page
 
 Shawn Smith - Sign Up Page
 
-Stephen Kean - Planetary Information
+Stephen Kean - Planetary Information (Working on planetary and System information as well as Images)
 
 Sweta Patel -General Information (Who are we and purpose of the settlement).
 
