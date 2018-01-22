@@ -111,6 +111,77 @@
 
                 <br />
 
+                <!-- Health Information -->
+				<section>
+					<h3>Health Information</h3>
+					<ul style="list-style:none">
+						<li>
+							<label for="txtBlood">Blood Type: </label>
+                            <asp:TextBox ID="txtBlood" runat="server"></asp:TextBox>
+                            <asp:RequiredFieldValidator 
+                                ID="vldBlood" 
+                                runat="server" 
+                                ErrorMessage="Enter a blood type" 
+                                Text="*"
+                                ControlToValidate="txtBlood" 
+                                CssClass="ErrorMessage" >
+                            </asp:RequiredFieldValidator>
+                            <br />
+						</li>
+                    </ul>
+                </section>
+
+                <br />
+
+                <section>
+                    <h4>Check the Following Medical Conditions That Apply</h4>
+                    <ul style="list-style:none">
+						<li>
+                            <label for="chkDiabetes">Diabetes </label>
+                            <asp:CheckBox ID="chkDiabetes" runat="server" CssClass="checkBoxes" />
+                        </li>
+                        <li>
+                            <label for="chkHighBlood">High Blood Pressure </label>
+                            <asp:CheckBox ID="chkHighBlood" runat="server" CssClass="checkBoxes" />
+                        </li>
+                        <li>
+                            <label for="chkLowBlood">Low Blood Pressure </label>
+                            <asp:CheckBox ID="chkLowBlood" runat="server" CssClass="checkBoxes" />
+                        </li>
+                        <li>
+                            <label for="chkOsteoporosis">Osteoporosis </label>
+                            <asp:CheckBox ID="chkOsteoporosis" runat="server" CssClass="checkBoxes" />
+                            <br />
+						</li>
+                    </ul>
+                </section>
+
+                <br />
+
+                <section>
+                    <h4>Does Your Family Have a History of Heart Diseases?</h4>
+                    <ul style="list-style:none">
+						<li>
+                            <asp:RadioButtonList ID="radlstHeart" runat="server">
+                                <Items>
+                                    <asp:ListItem Text="Yes" Value="0"></asp:ListItem>
+                                    <asp:ListItem Text="No" Value="1"></asp:ListItem>
+                                </Items>
+                            </asp:RadioButtonList>
+                            <asp:RequiredFieldValidator 
+                                ID="vldHeart" 
+                                runat="server" 
+                                ErrorMessage="Click on yes or no" 
+                                Text="*"
+                                ControlToValidate="radlstHeart" 
+                                CssClass="ErrorMessage" >
+                            </asp:RequiredFieldValidator>
+						</li>	
+				    </ul>
+				</section>
+
+                <br />
+
                 <!-- Account Details -->
                 <section>
                     <h3>Account Details</h3>
@@ -142,6 +213,7 @@
                     </ul>
                 </section>
 
+                <br />
                 <br />
 
                 <footer>

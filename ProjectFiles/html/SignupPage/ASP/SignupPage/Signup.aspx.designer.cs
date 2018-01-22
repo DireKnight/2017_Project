@@ -130,6 +130,78 @@ namespace SignupPage {
         protected global::System.Web.UI.WebControls.RequiredFieldValidator vldDegree;
         
         /// <summary>
+        /// txtBlood control.
+        /// </summary>
+        /// <remarks>
+        /// Auto-generated field.
+        /// To modify move field declaration from designer file to code-behind file.
+        /// </remarks>
+        protected global::System.Web.UI.WebControls.TextBox txtBlood;
+        
+        /// <summary>
+        /// vldBlood control.
+        /// </summary>
+        /// <remarks>
+        /// Auto-generated field.
+        /// To modify move field declaration from designer file to code-behind file.
+        /// </remarks>
+        protected global::System.Web.UI.WebControls.RequiredFieldValidator vldBlood;
+        
+        /// <summary>
+        /// chkDiabetes control.
+        /// </summary>
+        /// <remarks>
+        /// Auto-generated field.
+        /// To modify move field declaration from designer file to code-behind file.
+        /// </remarks>
+        protected global::System.Web.UI.WebControls.CheckBox chkDiabetes;
+        
+        /// <summary>
+        /// chkHighBlood control.
+        /// </summary>
+        /// <remarks>
+        /// Auto-generated field.
+        /// To modify move field declaration from designer file to code-behind file.
+        /// </remarks>
+        protected global::System.Web.UI.WebControls.CheckBox chkHighBlood;
+        
+        /// <summary>
+        /// chkLowBlood control.
+        /// </summary>
+        /// <remarks>
+        /// Auto-generated field.
+        /// To modify move field declaration from designer file to code-behind file.
+        /// </remarks>
+        protected global::System.Web.UI.WebControls.CheckBox chkLowBlood;
+        
+        /// <summary>
+        /// chkOsteoporosis control.
+        /// </summary>
+        /// <remarks>
+        /// Auto-generated field.
+        /// To modify move field declaration from designer file to code-behind file.
+        /// </remarks>
+        protected global::System.Web.UI.WebControls.CheckBox chkOsteoporosis;
+        
+        /// <summary>
+        /// radlstHeart control.
+        /// </summary>
+        /// <remarks>
+        /// Auto-generated field.
+        /// To modify move field declaration from designer file to code-behind file.
+        /// </remarks>
+        protected global::System.Web.UI.WebControls.RadioButtonList radlstHeart;
+        
+        /// <summary>
+        /// vldHeart control.
+        /// </summary>
+        /// <remarks>
+        /// Auto-generated field.
+        /// To modify move field declaration from designer file to code-behind file.
+        /// </remarks>
+        protected global::System.Web.UI.WebControls.RequiredFieldValidator vldHeart;
+        
+        /// <summary>
         /// txtUsername control.
         /// </summary>
         /// <remarks>
