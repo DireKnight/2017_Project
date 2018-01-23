@@ -4,7 +4,10 @@ Shawn Smith - Sign Up Page
 
 Stephen Kean - Planetary Information (Working on planetary and System information as well as Images)
 
+Pablo Huerta - Planetary Information (Formating Document, Html, worked on some of creatures of Nextworld)
+
 Sweta Patel -General Information (Who are we and purpose of the settlement).
+
 
 
 ============================================
